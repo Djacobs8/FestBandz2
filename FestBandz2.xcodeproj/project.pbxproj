@@ -13,6 +13,8 @@
 		B6B27C131E945DCB000D9BAE /* FestBandz2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6B27C111E945DCB000D9BAE /* FestBandz2.xcdatamodeld */; };
 		B6B27C151E945DCB000D9BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B27C141E945DCB000D9BAE /* Assets.xcassets */; };
 		B6B27C181E945DCB000D9BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B27C161E945DCB000D9BAE /* LaunchScreen.storyboard */; };
+		B6B27C201E9460AE000D9BAE /* perfectly-timed-photos-part2-14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B6B27C1F1E9460AE000D9BAE /* perfectly-timed-photos-part2-14.jpeg */; };
+		B6B27C221E946149000D9BAE /* BandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B27C211E946149000D9BAE /* BandViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B6B27C141E945DCB000D9BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6B27C171E945DCB000D9BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6B27C191E945DCB000D9BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B27C1F1E9460AE000D9BAE /* perfectly-timed-photos-part2-14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "perfectly-timed-photos-part2-14.jpeg"; sourceTree = "<group>"; };
+		B6B27C211E946149000D9BAE /* BandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		B6B27C091E945DCB000D9BAE /* FestBandz2 */ = {
 			isa = PBXGroup;
 			children = (
+				B6B27C1F1E9460AE000D9BAE /* perfectly-timed-photos-part2-14.jpeg */,
 				B6B27C0A1E945DCB000D9BAE /* AppDelegate.swift */,
 				B6B27C0C1E945DCB000D9BAE /* ViewController.swift */,
 				B6B27C0E1E945DCB000D9BAE /* Main.storyboard */,
+				B6B27C211E946149000D9BAE /* BandViewController.swift */,
 				B6B27C141E945DCB000D9BAE /* Assets.xcassets */,
 				B6B27C161E945DCB000D9BAE /* LaunchScreen.storyboard */,
 				B6B27C191E945DCB000D9BAE /* Info.plist */,
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B27C201E9460AE000D9BAE /* perfectly-timed-photos-part2-14.jpeg in Resources */,
 				B6B27C181E945DCB000D9BAE /* LaunchScreen.storyboard in Resources */,
 				B6B27C151E945DCB000D9BAE /* Assets.xcassets in Resources */,
 				B6B27C101E945DCB000D9BAE /* Main.storyboard in Resources */,
@@ -142,6 +149,7 @@
 				B6B27C131E945DCB000D9BAE /* FestBandz2.xcdatamodeld in Sources */,
 				B6B27C0D1E945DCB000D9BAE /* ViewController.swift in Sources */,
 				B6B27C0B1E945DCB000D9BAE /* AppDelegate.swift in Sources */,
+				B6B27C221E946149000D9BAE /* BandViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
