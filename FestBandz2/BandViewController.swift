@@ -44,5 +44,15 @@ class BandViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
 
     @IBAction func addTapped(_ sender: Any) {
+        
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let band = Band(context: context)
+        band.title = titleTextField.text
+        band.image = UIImagePNGRepresentation(bandImageView.image!) as! NSData // forced to downcast to NSData atm
+        
+        (UIApplication.shared.delegate as! AppDelegate).saveContext() // saves to core data hopefully
+        
+        navigationController!.popViewController(animated: true)
     }
 }
